@@ -10,7 +10,7 @@ $GLOBALS['TL_CTE']['lightboxlink']['lightboxLinkYoutube']  = 'ContentLightboxLin
 /**
  * Javascript
  */
-$GLOBALS['TL_JQUERY']['lightboxLink'] = 'system/modules/lightboxlink_ce/assets/javascript/lightboxlink.js';
+$GLOBALS['TL_JQUERY']['lightboxLink'] = '<script src="system/modules/lightboxlink_ce/assets/javascript/lightboxlink.js"></script>';
 
 /**
  * Copyright information
