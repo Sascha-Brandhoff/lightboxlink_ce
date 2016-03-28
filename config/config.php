@@ -8,7 +8,7 @@ $GLOBALS['TL_CTE']['lightboxlink']['lightboxLinkWebpage']  = 'ContentLightboxLin
 $GLOBALS['TL_CTE']['lightboxlink']['lightboxLinkYoutube']  = 'ContentLightboxLinkYoutube';
 
 /**
- * Javascript
+ * jQuery
  */
 $GLOBALS['TL_JQUERY']['lightboxLink'] = '<script src="system/modules/lightboxlink_ce/assets/javascript/lightboxlink.js"></script>';
 
