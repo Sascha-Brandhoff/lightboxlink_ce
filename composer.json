@@ -1,0 +1,35 @@
+{
+	"name":"sascha-brandhoff/lightboxlink_ce",
+	"description":"Show activities since lastlogin",
+	"keywords":["contao","content", "log"],
+	"type":"contao-module",
+	"homepage":"http://www.pixelspread.de/contao-modules/",
+	"license":"LGPLv3",
+	"authors":[
+		{
+			"name":"Sascha Brandhoff",
+			"email":"sascha.brandhoff@gmail.com",
+			"homepage":"https://www.paypal.me/pixelSpreadde",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"sascha.brandhoff@gmail.com",
+		"issues":"https://github.com/Sascha-Brandhoff/lightboxlink_ce/issues",
+		"source":"https://github.com/Sascha-Brandhoff/lightboxlink_ce"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core": ">=3.4,<3.6"
+	},
+	"replace":{
+		"sascha-brandhoff/lightboxlink_ce":"self.version"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"":"system/modules/lightboxlink_ce"
+			}
+		}
+	}
+}
